@@ -1,0 +1,92 @@
+.bgrndShape{
+    height: 550px;
+    width: 1200px;
+    position: relative;
+}
+
+.mainCircle{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 75px;
+    left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.start{
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+    background-color: silver;
+    padding: 5px;
+    border-radius: 25%;
+    font-family: 'Orbitron';
+    font-size: 30px;
+}
+
+.level{
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+    background-color: silver;
+    padding: 5px;
+    border-radius: 25%;
+    font-family: 'Orbitron';
+    font-size: 30px;
+}
+
+.hiscore{
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+    background-color: silver;
+    padding: 5px;
+    border-radius: 25%;
+    font-family: 'Orbitron';
+    font-size: 30px;
+}
+
+.led{
+    height: 10px;
+    width: 10px;
+    margin: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.circle{
+    height: 230px;
+    width: 230px;
+    border: 20px solid black;
+    border-radius: 50%;
+    position: absolute;   
+}
+
+.circle.green{
+    top: 0;
+    left: 285px;
+    background-color: limegreen;
+}
+
+.circle.red{
+    top:0;
+    right: 280px;
+    background-color: red;
+}
+
+.circle.yellow{
+    bottom:0;
+    left: 285px;
+    background-color: yellow;
+}
+
+.circle.blue{
+    bottom:0;
+    right: 280px;
+    background-color: blue;
+}
